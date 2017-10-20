@@ -24,10 +24,6 @@ RUN apt-get install -y certbot -t jessie-backports
 #
 ENV TERM xterm
 
-# add cron script for backup
-#
-# RUN echo "07 01 * * * root  /root/backup.sh" >> /etc/crontab
-
 # supervisor: create directory for logs and copy config file
 #
 RUN mkdir -p /var/log/supervisor
