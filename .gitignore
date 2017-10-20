@@ -6,3 +6,5 @@ build
 *.lck
 *.bin
 
+dockertests.txt
+
